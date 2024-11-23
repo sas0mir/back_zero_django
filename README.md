@@ -12,8 +12,10 @@ To start server:
     pip install Django
     (also install Pillow and the other libraries)
 6. migrate models
-    (mac) python3 manage.py migrate
-    (windows) py manage.py migrate
+    (mac) python3 manage.py makemigrations
+        python3 manage.py migrate
+    (windows) py manage.py makemigrations
+        py manage.py migrate
 7. start server
     (mac) python3 manage.py runserver
     (windows) py manage.py runserver
